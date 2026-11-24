@@ -2,7 +2,7 @@
 
 A hands-on course for developers who use Claude Code like a chatbot, or have not used it yet. You work on a local branch of your own repo: Claude proposes, you approve every change. Nothing is pushed.
 
-This edition: **two days, online** · Claude Code 2.1.319 · release `2026-11-25`.
+This edition: **two days, online** · Claude Code 2.1.331 · release `2026-11-25`.
 
 ## Start here
 

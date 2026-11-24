@@ -1,6 +1,6 @@
 # Lab 0 · Setup (before the session)
 
-1. Install Claude Code and log in. Check: `claude --version` (the course uses 2.1.319).
+1. Install Claude Code and log in. Check: `claude --version` (the course uses 2.1.331).
 2. Pick a work repo you know. Create a local branch you can throw away:
    ```bash
    git switch -c course/<your-name>
@@ -13,7 +13,7 @@
    claude --permission-mode default
    ```
    Or press `Shift+Tab` once after starting. The status bar shows `⏸ manual mode on`.
-   The first time, Claude asks whether you trust the folder. The highlighted answer is **No, exit**: move down to **Yes, I trust this folder**.
+   The first time, Claude asks whether you trust the folder. The dialog also lists the settings files and hooks the folder would load: read them. The highlighted answer is **No, exit**: move down to **Yes, I trust this folder**.
    When a permission prompt offers "Yes, and switch to auto mode", pick plain **Yes** for now.
 6. Keep the course's personal files out of git, locally only (`.git/info/exclude` is never committed):
    ```bash
