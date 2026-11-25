@@ -23,6 +23,11 @@
    ```json
    { "attribution": { "commit": "", "pr": "" } }
    ```
-8. Set the editor that `Ctrl+G` opens in lab 4, e.g. for VS Code: `export EDITOR="code --wait"` (add it to your shell profile).
+8. Set the editor that `Ctrl+G` opens in lab 4. The editor's command must work in a terminal first, and `--wait` makes Claude wait until you close the file. Add the export to your shell profile (`~/.zshrc` or `~/.bashrc`), then open a new terminal.
+   - **VS Code:** `Cmd+Shift+P` (`Ctrl+Shift+P` on Linux) → *Shell Command: Install 'code' command in PATH*. Then `export EDITOR="code --wait"`.
+   - **IntelliJ IDEA:** in the Toolbox App, *Settings → Tools → Shell scripts* on, or add the launcher folder to your `PATH` (macOS: `/Applications/IntelliJ IDEA.app/Contents/MacOS`, or `IntelliJ IDEA CE.app` for Community). Then `export EDITOR="idea --wait"`.
+   - **Terminal editor:** `export EDITOR=nano` (or `vim`).
+
+   Check: `eval "$EDITOR /tmp/x.txt"` opens the file and the terminal returns only after you close it.
 
 **Rule for the day:** nothing gets pushed. You review and approve every change.

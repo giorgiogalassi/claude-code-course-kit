@@ -3,7 +3,7 @@
 Pick a **small** real task on your branch: a bug, a missing edge case, a small ticket.
 
 1. **Explore.** Press `Shift+Tab` until you are in plan mode. Ask Claude to read the code involved and explain the current behaviour.
-2. **Plan.** Ask: "Make a plan to fix it. Test first: a failing test that reproduces it, then the fix, run the tests until they pass, fix the root cause." Press `Ctrl+G` to open the plan in your editor and change at least one thing.
+2. **Plan.** Ask: "Make a plan to fix it. Test first: a failing test that reproduces it, then the fix, run the tests until they pass, fix the root cause." When the plan and the approval menu appear, press `Ctrl+G` to open the plan in your editor. Change at least one thing (where the test goes, how the fix works), save and close the tab: the menu now shows your edited plan. No code exists yet at this point: the test is written in step 4.
 3. **Approve.** Choose **2. Yes, manually approve edits**. The highlighted default, *Yes, and use auto mode*, switches you to auto mode. Approving leaves plan mode and starts the work straight away.
 4. **Watch the loop.** Approve each edit and command. Check that the new test failed before the fix and passes after. Read every command before you approve it.
 5. **Verify yourself.** Read the diff (`git diff`). Would you approve this in a review?
