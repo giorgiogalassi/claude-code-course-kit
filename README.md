@@ -17,7 +17,7 @@ Day 1 ends with a commit on your branch. Keep it: day 2 starts from it.
 
 **After the course:** [`starter-kit/`](starter-kit/) is a small plan → implement → review workflow: a `/plan-task` skill, an implementer and a reviewer subagent, safe default settings. Copy it into your repo and make it yours; lab 8 walks you through it.
 
-**No repo to practise on?** [claude-code-course-sandbox](https://github.com/giorgiogalassi/claude-code-course-sandbox) is a small billing module with one branch per lab (`lab-05` … `lab-08`). Each branch starts where that lab starts, with the earlier labs already done. There's a ZIP per branch if you can't clone from GitHub.
+**No repo to practise on?** [claude-code-course-sandbox](https://github.com/giorgiogalassi/claude-code-course-sandbox) is a small online shop with one branch per lab (`lab-02` … `lab-08`). Each branch starts where that lab starts, with the earlier labs already done. There's a ZIP per branch if you can't clone from GitHub.
 
 ## What's here
 
@@ -26,7 +26,7 @@ Day 1 ends with a commit on your branch. Keep it: day 2 starts from it.
 | [`slides.pdf`](slides.pdf) | The slides of this edition |
 | [`labs/`](labs/) | One README per hands-on exercise |
 | [`starter-kit/`](starter-kit/) | The workflow you copy into your repo in lab 8 |
-| [sandbox repo](https://github.com/giorgiogalassi/claude-code-course-sandbox) | A practice repo for labs 5–8, one branch per lab |
+| [sandbox repo](https://github.com/giorgiogalassi/claude-code-course-sandbox) | A practice repo for every lab, one branch per lab |
 
 Claude Code changes fast. If a command or a screen looks different on your machine, check https://code.claude.com/docs first.
 
